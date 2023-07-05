@@ -893,8 +893,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/zyoushuo/Blog@latest/hexo/css/loading_style_1.css" > # spinner-box风格样式文件
-    - <link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/zyoushuo/Blog@latest/hexo/css/loading_style_2.css" > # gear风格样式文件
+    # - <link rel="stylesheet" href="xxx" > # 
   bottom:
     # - <script src="xxxx"></script>
 
