@@ -1,0 +1,20 @@
+#footer-wrap
+  if theme.footer.owner.enable
+    - var now = new Date()
+    - var nowYear = now.getFullYear()
+    .copyright!= `&copy;${theme.footer.owner.since} - ${nowYear + ' '} <i id="heartbeat" class="fa fas fa-heartbeat"></i> ${config.author}`
+  p
+  a(target='_blank', href='https://hexo.io/')
+    img(src='https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo', title='博客框架为Hexo')
+  |  
+  a(target='_blank', href='https://butterfly.js.org/')
+    img(src='https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender', title='主题采用butterfly')
+  |  
+  a(target='_blank', href='https://www.jsdelivr.com/')
+    img(src='https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr', title='本站使用JsDelivr为静态资源提供CDN加速')
+  |  
+  a(target='_blank', href='https://vercel.com/')
+    img(src='https://img.shields.io/badge/Hosted-Vervel-brightgreen?style=flat&logo=Vercel', title='本站采用双线部署，默认线路托管于Vercel')
+  |  
+  a(target='_blank', href='https://vercel.com/')
+    img(src='https://img.shields.io/badge/Hosted-Coding-0cedbe?style=flat&logo=Codio', title='本站采用双线部署，联通线路托管于Coding')
