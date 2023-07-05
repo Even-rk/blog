@@ -166,3 +166,8 @@
 .card-info-data{
     display: none !important;
 }
+
+/* 页脚透明 */
+#footer {
+    background: rgba(0, 0, 0, 0.5) !important;
+}

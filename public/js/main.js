@@ -951,30 +951,30 @@ document.addEventListener("DOMContentLoaded", function () {
   unRefreshFn();
 });
 
-// 获取目标元素
-const targetElement = document.querySelector("html");
-active(targetElement.dataset.theme);
+// // 获取目标元素
+// const targetElement = document.querySelector("html");
+// active(targetElement.dataset.theme);
 
-// 创建一个MutationObserver实例
-const observer = new MutationObserver(function (mutations) {
-  // 在每次变化时执行的回调函数
-  mutations.forEach(function (mutation) {
-    active(mutation.target.dataset.theme);
-  });
-});
+// // 创建一个MutationObserver实例
+// const observer = new MutationObserver(function (mutations) {
+//   // 在每次变化时执行的回调函数
+//   mutations.forEach(function (mutation) {
+//     active(mutation.target.dataset.theme);
+//   });
+// });
 
-// 配置观察选项
-const config = { attributes: true, attributeFilter: ["data-theme"] };
+// // 配置观察选项
+// const config = { attributes: true, attributeFilter: ["data-theme"] };
 
-// 开始观察目标元素
-observer.observe(targetElement, config);
+// // 开始观察目标元素
+// observer.observe(targetElement, config);
 
-function active(theme) {
-  if (theme === "light") {
-    document.querySelector("#footer-wrap").style.backgroundColor = "#fff";
-    document.querySelector("#footer-wrap").style.color = "#000";
-  } else {
-    document.querySelector("#footer-wrap").style.backgroundColor = "#000";
-    document.querySelector("#footer-wrap").style.color = "#fff";
-  }
-}
+// function active(theme) {
+//   if (theme === "light") {
+//     document.querySelector("#footer-wrap").style.backgroundColor = "#fff";
+//     document.querySelector("#footer-wrap").style.color = "#000";
+//   } else {
+//     document.querySelector("#footer-wrap").style.backgroundColor = "#000";
+//     document.querySelector("#footer-wrap").style.color = "#fff";
+//   }
+// }
