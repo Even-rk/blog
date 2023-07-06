@@ -101,7 +101,7 @@ import './tailwind.css'
 ```jsx
 export default function App() {
   return (
-    <div className="text-3xl font-bold bg-red-500">
+    <div className="text-3xl font-bold bg-red-500 w-56">
       hello word!
     </div>
   )
@@ -110,10 +110,10 @@ export default function App() {
 ### **vue**
 ```html
 <template>
-  <div className="text-3xl font-bold bg-red-500">
+  <div className="text-3xl font-bold bg-red-500 w-56">
     hello word!
   </div>
 </template>
 ```
 ## 演示效果
-![image](http://lc-u11PV6WA.cn-n1.lcfile.com/lEUdpuRvvu3O7B9Uho0jlwkhILwuBlxE/tailwindcss.jpg)
+![image](http://lc-u11PV6WA.cn-n1.lcfile.com/UPmCV1w7jVlnwr9GLecREnx5FxnpYwxl/tailwindcss.jpg)
