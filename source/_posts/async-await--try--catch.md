@@ -2,7 +2,7 @@
 title: async/await 异常捕获 代替 try--catch
 date: 2021-03-15 10:13:23
 updated: 2021-03-15 10:14:05
-cover: /img/async:await.jpeg
+cover: /img/async.jpg
 ---
 
 看到捕获异常，一想到的就是 try--catch 可能单看try--catch 是没什么问题，但是对于我这种有点强迫症的来说，感觉不美观，而已感觉逻辑上像是，中间给截掉了一样，而且代码量也会变多，如果每个请求的地方都添加 try-catch，可想而之
