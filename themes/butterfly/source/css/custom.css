@@ -171,3 +171,7 @@
 #footer {
     background: rgba(0, 0, 0, 0.5) !important;
 }
+
+.markdown,.vpower.txt-right{
+    display: none;
+}
