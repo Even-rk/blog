@@ -529,13 +529,15 @@ document.addEventListener("DOMContentLoaded", function () {
         setTimeout(() => {
           autoScrollToc(currentActive);
         }, 0);
+        return
 
-        if (isExpand) return;
-        let parent = currentActive.parentNode;
+        // if (isExpand) return;
+        // let parent = currentActive.parentNode;
+        // console.log(!parent.matches(".toc"))
 
-        for (; !parent?.matches(".toc"); parent = parent.parentNode) {
-          if (parent.matches("li")) parent.classList.add("active");
-        }
+        // for (; !parent?.matches(".toc"); parent = parent.parentNode) {
+        //   if (parent.matches("li")) parent.classList.add("active");
+        // }
       }
     };
 
