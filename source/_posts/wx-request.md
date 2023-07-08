@@ -32,7 +32,7 @@ async function http(config) {
         resolve(responseInterceptor(response))
       },
       fail(error) {
-        // 请求失败后走
+        // 请求失败后，走响应拦截器
         reject(responseInterceptor(error))
       },
       complete() {
