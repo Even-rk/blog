@@ -65,11 +65,11 @@ http.delete = (url, data) => {
 }
 ```
 
-如果还有其他的 像put请求等，可以直接加
+如果还有其他的 像patch请求等，可以直接加
 ```js
 // put 请求
-http.put = (url, data) => {
-  return http({ url, data, method: 'PUT' })
+http.patch = (url, data) => {
+  return http({ url, data, method: 'PATCH' })
 }
 ```
 
