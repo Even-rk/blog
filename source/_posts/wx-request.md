@@ -67,7 +67,7 @@ http.delete = (url, data) => {
 
 如果还有其他的 像patch请求等，可以直接加
 ```js
-// put 请求
+// patch 请求
 http.patch = (url, data) => {
   return http({ url, data, method: 'PATCH' })
 }
