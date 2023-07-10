@@ -1,7 +1,7 @@
 ---
 title: async/await 异常捕获 代替 try--catch
-date: 2021-03-15 10:13:23
-updated: 2021-03-15 10:14:05
+date: 2023-03-15 10:13:23
+updated: 2023-03-15 10:14:05
 cover: /img/async.jpg
 ---
 

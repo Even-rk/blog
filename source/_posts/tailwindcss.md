@@ -1,7 +1,7 @@
 ---
 title: 在 vue/react 项目中如何使用 tailwindcss
-date: 2021-02-26 17:10:17
-updated: 2021-02-26 17:13:34
+date: 2023-02-26 17:10:17
+updated: 2023-02-26 17:13:34
 cover: /img/tailwindcss.jpeg
 ---
 

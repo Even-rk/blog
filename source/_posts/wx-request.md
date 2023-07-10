@@ -1,7 +1,7 @@
 ---
 title: Promise 对 we.request 的封装，请求拦截器，响应拦截器
-date: 2021-06-20 12:05:14
-updated: 2021-06-20 12:06:23
+date: 2023-05-20 12:05:14
+updated: 2023-05-20 12:06:23
 cover: /img/wechat-http.jpeg
 ---
 
