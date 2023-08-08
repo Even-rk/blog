@@ -9,7 +9,7 @@ aside: false
 Name: 康文瑞
 Age: 23
 Address: Shanghai
-Blog: http://kang-wenrui-aeary.gitee.io/blog/
+Blog: https://pircil.top
 Hobbies: animation, internet, front-end technology, singing, guitar
 ```
 
@@ -29,7 +29,7 @@ Hobbies: animation, internet, front-end technology, singing, guitar
 # 联系博主
 
 ```yaml
-QQ: 2938526863
+QQ: 2921401460
 WX: kwr17616797651（加我请留下备注，无备注不会审核通过哈，望理解）
 Email: 2921401460@163.com
 motto: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志。
