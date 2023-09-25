@@ -17,12 +17,15 @@ async function http(config) {
   wx.showLoading({
     title: '加载中',
   })
-  // 请求基地址，这里是演示默认地址
-  const baseUrl = 'https://mock.boxuegu.com/mock/3293'
+  // 请求基地址
+  const baseUrl = 'https://mock.xxx.com/mock'
+  // 请求头
+  const header = {}
   // 这里是配置的请求拦截器，进入的时候，先走请求拦截器
   const options = await requestInterceptor({
     ...config,
     url: baseUrl + config.url,
+    header
   })
   return new Promise((resolve, reject) => {
     wx.request({
@@ -65,16 +68,6 @@ http.delete = (url, data) => {
 }
 ```
 
-如果还有其他的 像patch请求等，可以直接加
-```js
-// patch 请求
-http.patch = (url, data) => {
-  return http({ url, data, method: 'PATCH' })
-}
-```
-
-
-
 # 请求拦截器和响应拦截器
 
 请求拦截器和响应拦截器就相对简单很多了
@@ -105,12 +98,12 @@ export default http
 ```js
 import http from '../../utils/http' // 导入
 Page({
-  async getStudentList() {
-    const res = await http.get('/students')
+  async getList() {
+    const res = await http.get('/list')
     console.log(res)
   },
   onLoad() {
-    this.getStudentList()
+    this.getList()
   },
 })
 ```
