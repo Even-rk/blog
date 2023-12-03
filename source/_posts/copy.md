@@ -115,7 +115,7 @@ export default {
 
 vue3中的相对vue2就简单了很多
 
-#### 1：安装 vue-clipboard2
+#### 1：安装 vue-clipboard3
 
 ```bash
 # npm
