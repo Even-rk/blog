@@ -31,7 +31,7 @@ Hobbies: animation, internet, front-end technology, singing, guitar
 ```yaml
 QQ: 2921401460
 WX: kwr17616797651（加我请留下备注，无备注不会审核通过哈，望理解）
-Email: 2921401460@163.com
+Email: kwr011024@163.com
 motto: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志。
 ```
 
