@@ -50,7 +50,7 @@ favicon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGL
 
 # Avatar (頭像)
 avatar:
-  img: https://thirdwx.qlogo.cn/mmopen/vi_32/Fr2lOLd3kW2oYtr037hzekcLShEalibJcq8rq3FJb9Ingj2nHdXnGfmhYI3LAh9v2O3iaYdPgUuzGyGicY7V9EKbA/132
+  img: 	https://p3-pc-sign.douyinpic.com/aweme-avatar/tos-…se&sc=avatar&l=202501250507309B0A067954FCCD4BEACA
   effect: false
 
 # Disable all banner image
